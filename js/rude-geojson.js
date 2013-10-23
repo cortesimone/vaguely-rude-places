@@ -3113,6 +3113,90 @@ var places = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+		9.9430454,
+		13.0088829
+                ]
+            },
+            "properties": {
+                "label": "Fika",
+                "detail": "Fika, Yobe state, Nigeria"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		20.2519042,
+		48.3972126 
+                ]
+            },
+            "properties": {
+                "label": "Figa",
+                "detail": "Figa, Slovensko"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		37.48333,
+		6.41667 
+                ]
+            },
+            "properties": {
+                "label": "Kulo",
+                "detail": "Kulo, Etiopia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		12.33094,
+		45.43877 
+                ]
+            },
+            "properties": {
+                "label": "Fondamenta de le Tette",
+                "detail": "Fondamenta de le Tette, Venezia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		-86.4213811,
+		35.9872853 
+                ]
+            },
+            "properties": {
+                "label": "Mona",
+                "detail": "Mona, Rutherford, Tennessee, USA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		25.5694691,
+		45.9335226 
+                ]
+            },
+            "properties": {
+                "label": "Belin",
+                "detail": "Belin, Romania"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     -3.3565521,
                     53.2339649
                 ]
