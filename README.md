@@ -1,7 +1,7 @@
-# Vaguely Rude Place Names Map
+# Mappa dei nomi vagamente Rudi
 
-## Gentle Introduction
+## Introduzione
 
-The [Vaguely Rude Place Names Map](http://maps.geotastic.org/rude/) is a simple web mash up of places which, to the British sense or humour, sound vaguely rude and thus are, by definition, funny. If you're not British, it might be confusing why this is amusing.
+Questo è un fork del lavoro di Gary Gale [The Vaguely Rude Place Names Map](http://maps.geotastic.org/rude/).
 
-Meanwhile, [here's a blog post](http://www.vicchi.org/2013/02/06/ooh-that-sounds-rude-mapping-british-innuendo/) which may, or may not, explain how the map came into being.
+Utilizzando i nomi che sembrano rudi in italiano,
