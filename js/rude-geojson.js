@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "252",
+    "last_id": "21",
     "type": "FeatureCollection",
     "features": [
         {
@@ -64,7 +64,7 @@ var places = {
             "properties": {
                 "label": "Clit, Arad, Romania",
                 "detail": "Clit, Romania",
-                "id": "38"
+                "id": "4"
             }
         },
         {
@@ -79,7 +79,7 @@ var places = {
             "properties": {
                 "label": "Clit, Salja, Romania",
                 "detail": "B\u00c4\u0192beni, Romania",
-                "id": "39"
+                "id": "5"
             }
         },
         {
@@ -94,7 +94,7 @@ var places = {
             "properties": {
                 "label": "Labia, Waremme, Liege, Belgium",
                 "detail": "Rue de Labia, 4317 Faimes, Belgium",
-                "id": "105"
+                "id": "6"
             }
         },
         {
@@ -109,7 +109,7 @@ var places = {
             "properties": {
                 "label": "Lago Titicaca",
                 "detail": "Lake Titicaca, Puno Region, Peru",
-                "id": "106"
+                "id": "7"
             }
         },
         {
@@ -124,7 +124,7 @@ var places = {
             "properties": {
                 "label": "Vagina, Tyumenskaya oblast, Russia",
                 "detail": "Vagina, Tyumen Oblast, Russia",
-                "id": "175"
+                "id": "8"
             }
         },
         {
@@ -139,7 +139,7 @@ var places = {
             "properties": {
                 "label": "Bastardo",
                 "detail": "Bastardo, PG",
-                "id": "208"
+                "id": "9"
             }
         },
         {
@@ -154,7 +154,7 @@ var places = {
             "properties": {
                 "label": "Bastardstown",
                 "detail": "Bastardstown, Co. Wexford, Ireland",
-                "id": "221"
+                "id": "10"
             }
         },
         {
@@ -168,7 +168,8 @@ var places = {
             },
             "properties": {
                 "label": "Verga D'Acciaio",
-                "detail": "Verga D'Acciaio"
+                "detail": "Verga D'Acciaio",
+                "id": "11"
             }
         },
         {
@@ -182,7 +183,8 @@ var places = {
             },
             "properties": {
                 "label": "La Vagina",
-                "detail": "La Vagina, MS"
+                "detail": "La Vagina, MS",
+                "id": "12"
             }
         },
         {
@@ -196,7 +198,8 @@ var places = {
             },
             "properties": {
                 "label": "La Gnocca",
-                "detail": "La Gnocca, Dimaro, TN"
+                "detail": "La Gnocca, Dimaro, TN",
+                "id": "13"
             }
         },
         {
@@ -210,7 +213,8 @@ var places = {
             },
             "properties": {
                 "label": "Gnocca",
-                "detail": "Gnocca, RO"
+                "detail": "Gnocca, RO",
+                "id": "14"
             }
         },
         {
@@ -224,7 +228,8 @@ var places = {
             },
             "properties": {
                 "label": "Fika",
-                "detail": "Fika, Yobe state, Nigeria"
+                "detail": "Fika, Yobe state, Nigeria",
+                "id": "15"
             }
         },
         {
@@ -238,7 +243,8 @@ var places = {
             },
             "properties": {
                 "label": "Figa",
-                "detail": "Figa, Slovensko"
+                "detail": "Figa, Slovensko",
+                "id": "16"
             }
         },
         {
@@ -252,7 +258,8 @@ var places = {
             },
             "properties": {
                 "label": "Kulo",
-                "detail": "Kulo, Etiopia"
+                "detail": "Kulo, Etiopia",
+                "id": "17"
             }
         },
         {
@@ -266,7 +273,8 @@ var places = {
             },
             "properties": {
                 "label": "Fondamenta de le Tette",
-                "detail": "Fondamenta de le Tette, Venezia"
+                "detail": "Fondamenta de le Tette, Venezia",
+                "id": "18"
             }
         },
         {
@@ -280,7 +288,8 @@ var places = {
             },
             "properties": {
                 "label": "Mona",
-                "detail": "Mona, Rutherford, Tennessee, USA"
+                "detail": "Mona, Rutherford, Tennessee, USA",
+                "id": "19"
             }
         },
         {
@@ -294,7 +303,8 @@ var places = {
             },
             "properties": {
                 "label": "Belin",
-                "detail": "Belin, Romania"
+                "detail": "Belin, Romania",
+                "id": "20"
             }
         },
         {
@@ -309,7 +319,7 @@ var places = {
             "properties": {
                 "label": "Sodoma",
                 "detail": "Sodom, Denbighshire LL16, UK",
-                "id": "229"
+                "id": "21"
             }
         }
   

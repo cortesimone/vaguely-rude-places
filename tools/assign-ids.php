@@ -1,8 +1,9 @@
 <?php
-
-$file = '../js/rude.json';
+ini_set('display_errors', '1');
+$file = '../js/rude.js';
 $raw = file_get_contents($file);
 $json = json_decode($raw);
+print_r($json);
 if ($json !== NULL) {
 	$id = 0;
 	if (isset($json->last_id)) {
