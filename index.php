@@ -1,11 +1,11 @@
 <?php
-$path = dirname(__FILE__) . '/mobile-detect';
+$path = '../mobile-detect';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 require_once('Mobile_Detect.php');
 ?>
 <html>
 <head>
-	<title>Maps | Vaguely Rude Places</title>
+	<title>Simone Cortesi | Posti Vagamente Rudi</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
 	<!--[if lte IE 8]>
@@ -60,8 +60,8 @@ require_once('Mobile_Detect.php');
 
 	<script type="text/javascript">
 	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-10486552-10']);
-	_gaq.push(['_setDomainName', 'geotastic.org']);
+	_gaq.push(['_setAccount', '']);
+	_gaq.push(['_setDomainName', 'maps.cortesi.com']);
 	_gaq.push(['_trackPageview']);
 
 	(function() {
@@ -75,18 +75,18 @@ require_once('Mobile_Detect.php');
 <?php
 if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 ?>
-	<a href="https://github.com/vicchi/maps.geotastic.org"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+	<a href="https://github.com/simonecortesi/vaguely-rude-places"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <?php
 }
 ?>
-	<div id="header"><a href="/rude/index.php">Vaguely Rude Place Names Of The World</a></div>
+	<div id="header"><a href="/rude/index.php">Posti Vagamente Rudi di Questo Mondo</a></div>
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
-			<a href="/">More Maps</a>. This is a code thing by <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, made out of PHP, HTML, CSS and jQuery. <a href="/images/signpost-icon.png" target="_blank">Signpost icon</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY SA 3.0</a>; based on an original by <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
+			<a href="/">Altre mappe</a>. Questo è un lavoro di <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, copiato da <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, mrealizzato con PHP, HTML, CSS e jQuery. <a href="images/county.png" target="_blank">icona County</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
 		</div>
 		<div id="attribution">
-			&copy; <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>; content licensed under <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>; code licensed under a <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">BSD license</a>. <a href="http://maps.stamen.com/" target="_blank">Map tiles</a> by <a href="http://stamen.com/" target="_blank">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.
+			&copy; <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>; contenuto licenziato con <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">licenza CC BY 3.0</a>; sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">licenza BSD</a>. <a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.
 		</div>
 	</div>
 </body>

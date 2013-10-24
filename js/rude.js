@@ -2,7 +2,7 @@ $(document).ready(function() {
 	var coords = [];
 	var markers = new Array();
 	var icon = new L.Icon({
-		iconUrl: '/images/signpost-icon.png',
+		iconUrl: 'images/country.png',
 		iconSize: [32, 37]
 	});
 	var tiles = new L.StamenTileLayer("toner");
@@ -22,7 +22,7 @@ $(document).ready(function() {
 				var permalink = RudePlacesMap.server_name + '?id=' + feature.properties.id;
 				var popup = '<div class="rude-place-popup">';
 				popup += '<p>' + feature.properties.label + '</p>';
-				popup += '<p><a href="' + permalink + '">Permalink to this place ...</a></p>';
+				popup += '<p><a href="' + permalink + '">Permalink a questo luogo...</a></p>';
 				popup += '</div>';
 				layer.bindPopup(popup);
 				layer.on('mouseover', function(e) {
