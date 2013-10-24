@@ -321,6 +321,21 @@ var places = {
                 "detail": "Sodom, Denbighshire LL16, UK",
                 "id": "21"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0579195,
+                    44.330739
+                ]
+            },
+            "properties": {
+                "label": "Claux des Merda",
+                "detail": "Claux des Merda, Paroisse Saint-Jean des Sources, Millau, Aveyron, Midi-Pirenei",
+                "id": "22"
+            }
         }
   
     ]
