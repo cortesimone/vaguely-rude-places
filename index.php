@@ -80,7 +80,7 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 <?php
 }
 ?>
-	<div id="header"><a href="/volgari/index.php">Luoghi il cui nome risulta Vagamente Volgare</a></div>
+	<div id="header"><a href="/volgari/index.php">Mappa dei luoghi il cui nome risulta vagamente Volgare o Bizzarro</a></div>
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
@@ -94,7 +94,7 @@ sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" ta
 <a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, 
 <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; 
 <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.  Realizzato con PHP, HTML, CSS e jQuery.
-E' software libero, <a href="https://github.com/cortesimone/vaguely-rude-places" target="_blank">forkami su github</a>.
+Inviatemi <a href="http://cortesi.com/contact/" target="_blank">suggerimenti o aggiunte</a>.
 		</div>
 	</div>
 </body>
