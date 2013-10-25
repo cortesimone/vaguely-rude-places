@@ -76,7 +76,7 @@ require_once('Mobile_Detect.php');
 <?php
 if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 ?>
-	<a href="https://github.com/simonecortesi/vaguely-rude-places"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+	<a href="https://github.com/simonecortesi/vaguely-rude-img"><places style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <?php
 }
 ?>
@@ -84,10 +84,17 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
-			<a href="/">Altre mappe</a>. Questo è un lavoro di <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, fortemente ispirato da <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, realizzato con PHP, HTML, CSS e jQuery. <a href="images/county.png" target="_blank">icona Country</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
-		</div>
-		<div id="attribution">
-			&copy; <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>; contenuto licenziato con <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">licenza CC BY 3.0</a>; sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">licenza BSD</a>. <a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.
+			<a href="/">Altre mappe</a>. Questo è un lavoro di 
+<a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, fortemente ispirato da
+ <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, realizzato con PHP, HTML, CSS e jQuery. 
+<a href="images/county.png" target="_blank">icona Country</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC 
+BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
+			&copy; <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>; contenuto 
+licenziato con <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">licenza CC BY 3.0</a>; 
+sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">licenza BSD</a>. 
+<a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, 
+<a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; 
+<a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.
 		</div>
 	</div>
 </body>
