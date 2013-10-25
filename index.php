@@ -76,11 +76,12 @@ require_once('Mobile_Detect.php');
 <?php
 if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 ?>
-	<a href="https://github.com/simonecortesi/vaguely-rude-img"><places style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+	<a href="https://github.com/simonecortesi/vaguely-rude-img">
+<places style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <?php
 }
 ?>
-	<div id="header"><a href="/rude/index.php">Luoghi il cui nome risulta Vagamente Volgare</a></div>
+	<div id="header"><a href="/volgari/index.php">Luoghi il cui nome risulta Vagamente Volgare</a></div>
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
