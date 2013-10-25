@@ -5,7 +5,7 @@ require_once('Mobile_Detect.php');
 ?>
 <html>
 <head>
-	<title>Simone Cortesi | Posti Vagamente Rudi</title>
+	<title>Simone Cortesi | Luoghi Vagamente Volgari</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
 	<!--[if lte IE 8]>
@@ -79,7 +79,7 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 <?php
 }
 ?>
-	<div id="header"><a href="/rude/index.php">Posti Vagamente Rudi di Questo Mondo</a></div>
+	<div id="header"><a href="/rude/index.php">Luoghi il cui nome risulta Vagamente Volgare</a></div>
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
