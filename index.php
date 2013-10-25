@@ -7,6 +7,7 @@ require_once('Mobile_Detect.php');
 <head>
 	<title>Simone Cortesi | Luoghi Vagamente Volgari</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
 	<!--[if lte IE 8]>
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
@@ -83,7 +84,7 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
-			<a href="/">Altre mappe</a>. Questo è un lavoro di <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, copiato da <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, mrealizzato con PHP, HTML, CSS e jQuery. <a href="images/county.png" target="_blank">icona County</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
+			<a href="/">Altre mappe</a>. Questo è un lavoro di <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, fortemente ispirato da <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>, realizzato con PHP, HTML, CSS e jQuery. <a href="images/county.png" target="_blank">icona Country</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
 		</div>
 		<div id="attribution">
 			&copy; <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>; contenuto licenziato con <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">licenza CC BY 3.0</a>; sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">licenza BSD</a>. <a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.
