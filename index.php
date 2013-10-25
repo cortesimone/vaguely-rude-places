@@ -61,7 +61,7 @@ require_once('Mobile_Detect.php');
 
 	<script type="text/javascript">
 	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', '']);
+	_gaq.push(['_setAccount', 'UA-24114790-2']);
 	_gaq.push(['_setDomainName', 'maps.cortesi.com']);
 	_gaq.push(['_trackPageview']);
 
@@ -76,8 +76,7 @@ require_once('Mobile_Detect.php');
 <?php
 if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 ?>
-	<a href="https://github.com/simonecortesi/vaguely-rude-img">
-<places style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/cortesimone/vaguely-rude-places"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <?php
 }
 ?>
@@ -95,7 +94,7 @@ sorgente licenziato con <a href="http://opensource.org/licenses/BSD-2-Clause" ta
 <a href="http://maps.stamen.com/" target="_blank">Mappa</a> di <a href="http://stamen.com/" target="_blank">Stamen Design</a>, 
 <a href="http://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. &copy; 
 <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors.  Realizzato con PHP, HTML, CSS e jQuery.
-E' software libero, <a href="https://github.com/simonecortesi/vaguely-rude-img" target="_blank">forkami su github</a>.
+E' software libero, <a href="https://github.com/cortesimone/vaguely-rude-places" target="_blank">forkami su github</a>.
 		</div>
 	</div>
 </body>
