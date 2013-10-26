@@ -336,7 +336,36 @@ var places = {
                 "detail": "Claux des Merda, Paroisse Saint-Jean des Sources, Millau, Aveyron, Midi-Pirenei",
                 "id": "22"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4094,
+		    44.8115
+                ]
+            },
+            "properties": {
+                "label": "Po di Gnocca",
+                "detail": "Po di Gnocca, Porto Tolle, RO, Veneto",
+                "id": "23"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.39460,
+		    44.81468
+                ]
+            },
+            "properties": {
+                "label": "Bacucco",
+                "detail": "Bacucco, RO, Veneto, Italia",
+                "id": "24"
+            }
         }
-  
     ]
 };
