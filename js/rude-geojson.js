@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "30",
+    "last_id": "34",
     "type": "FeatureCollection",
     "features": [
         {
@@ -500,6 +500,21 @@ var places = {
                 "label": "Poggio delle Zoccole",
                 "detail": "Poggio delle Zoccole, Verghereto, FC, Emilia-Romagna",
                 "id": "33"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		15.61683,
+		40.95493
+                ]
+            },
+            "properties": {
+                "label": "Femmina Morta",
+                "detail": "Femmina Morta, Melfi, PZ, Basilicata",
+                "id": "34"
             }
         }
     ]
