@@ -80,7 +80,7 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 <?php
 }
 ?>
-	<div id="header"><a href="/volgari/index.php">Mappa dei luoghi il cui nome risulta vagamente Volgare o Bizzarro</a></div>
+	<div id="header"><a href="/volgari/index.php">Mappa dei luoghi il cui nome suona vagamente volgare o bizzarro</a></div>
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
