@@ -423,7 +423,7 @@ var places = {
             },
             "properties": {
                 "label": "Isola di Mona",
-                "detail": "Isola di Mona",
+                "detail": "Isla de Mona, Mayagüez Municipio, Puerto Rico, USA",
                 "id": "28"
             }
         }

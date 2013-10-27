@@ -21,8 +21,9 @@ $(document).ready(function() {
 			if (feature.properties && feature.properties.label) {
 				var permalink = RudePlacesMap.server_name + '?id=' + feature.properties.id;
 				var popup = '<div class="rude-place-popup">';
-				popup += '<p>' + feature.properties.label + '</p>';
+				popup += '<p><b>' + feature.properties.label + '</b></p>';
 				popup += '<p><a href="' + permalink + '">Permalink a questo luogo...</a></p>';
+				popup += '<p>' + feature.properties.detail + '</p>';
 				popup += '</div>';
 				layer.bindPopup(popup);
 				layer.on('mouseover', function(e) {
