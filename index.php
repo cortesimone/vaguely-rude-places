@@ -7,6 +7,7 @@ require_once('Mobile_Detect.php');
 <head>
 	<title>Simone Cortesi | Mappa dei luoghi il cui nome suona vagamente volgare o bizzarro</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:image" content="http://maps.cortesi.com/volgari.png" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
 	<!--[if lte IE 8]>
