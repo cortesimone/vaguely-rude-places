@@ -3,7 +3,8 @@ $(document).ready(function() {
 	var markers = new Array();
 	var icon = new L.Icon({
 		iconUrl: 'images/country.png',
-		iconSize: [32, 37]
+		iconSize: [32, 37],
+		iconAnchor: [16, 37]
 	});
 	var tiles = new L.StamenTileLayer("toner");
 	var options = {
