@@ -471,6 +471,36 @@ var places = {
                 "detail": "Brugna, RE, Emilia-Romagna",
                 "id": "31"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		8.02179,
+		44.16430
+                ]
+            },
+            "properties": {
+                "label": "Bocchino delle Meraviglie",
+                "detail": "Bocchino delle Meraviglie, Garessio, CN, Piemonte",
+                "id": "32"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		12.06149,
+		43.83086
+                ]
+            },
+            "properties": {
+                "label": "Poggio delle Zoccole",
+                "detail": "Poggio delle Zoccole, Verghereto, FC, Emilia-Romagna",
+                "id": "33"
+            }
         }
     ]
 };
