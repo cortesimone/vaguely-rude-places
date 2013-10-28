@@ -4,7 +4,8 @@ $(document).ready(function() {
 	var icon = new L.Icon({
 		iconUrl: 'images/country.png',
 		iconSize: [32, 37],
-		iconAnchor: [16, 37]
+		iconAnchor: [16, 37],
+		popupAnchor:  [0, -37]
 	});
 	var tiles = new L.StamenTileLayer("toner");
 	var options = {
