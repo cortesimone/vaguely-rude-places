@@ -516,6 +516,66 @@ var places = {
                 "detail": "Femmina Morta, Melfi, PZ, Basilicata",
                 "id": "34"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		14.7156256,
+		51.192466
+                ]
+            },
+            "properties": {
+                "label": "Tetta",
+                "detail": "Tetta, Reichenbach/O.L., Görlitz, Saxony, Germany",
+                "id": "35"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		8.7816863,
+		42.0012826
+                ]
+            },
+            "properties": {
+                "label": "Piscia-Rossa",
+                "detail": "Piscia-Rossa, Ajaccio, Corse-du-Sud, Corsica, France",
+                "id": "36"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		49.218472,
+		10.99628
+                ]
+            },
+            "properties": {
+                "label": "Cago",
+                "detail": "Cago, Bossaso, Bari, Somalia",
+                "id": "37"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		8.3129165,
+		46.1069155
+                ]
+            },
+            "properties": {
+                "label": "Porcelli",
+                "detail": "Porcelli, VB, Piemont, Italy, European Union",
+                "id": "38"
+            }
         }
     ]
 };
