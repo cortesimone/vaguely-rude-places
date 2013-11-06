@@ -576,6 +576,21 @@ var places = {
                 "detail": "Porcelli, VB, Piemont, Italy, European Union",
                 "id": "38"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		16.133676,
+		39.9253396
+                ]
+            },
+            "properties": {
+                "label": "Monte Grattaculo",
+                "detail": "Monte Grattaculo, Viggianello, PZ, BAS, Italia",
+                "id": "39"
+            }
         }
     ]
 };
