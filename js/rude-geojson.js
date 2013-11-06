@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "38",
+    "last_id": "39",
     "type": "FeatureCollection",
     "features": [
         {
