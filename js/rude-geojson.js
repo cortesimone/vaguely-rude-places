@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "39",
+    "last_id": "41",
     "type": "FeatureCollection",
     "features": [
         {
@@ -590,6 +590,36 @@ var places = {
                 "label": "Monte Grattaculo",
                 "detail": "Monte Grattaculo, Viggianello, PZ, BAS, Italia",
                 "id": "39"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		25.2391527,
+		-17.8035329
+                ]
+            },
+            "properties": {
+                "label": "Kazungula",
+                "detail": "Kazungula, North-West District, Botswana",
+                "id": "40"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+		37.0510712,
+		-17.2874961
+                ]
+            },
+            "properties": {
+                "label": "Mutanda",
+                "detail": "Mutanda, Mozambico",
+                "id": "41"
             }
         }
     ]
