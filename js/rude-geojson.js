@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "41",
+    "last_id": "49",
     "type": "FeatureCollection",
     "features": [
         {
@@ -620,6 +620,117 @@ var places = {
                 "label": "Mutanda",
                 "detail": "Mutanda, Mozambico",
                 "id": "41"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+	9.4042,
+45.85565                ]
+            },
+            "properties": {
+                "label": "Lecco",
+                "detail": "Lecco, LC, Lombardia",
+                "id": "42"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+12.07237,44.39297                ]
+            },
+            "properties": {
+                "label": "Godo",
+                "detail": "Godo, RA, Emilia-Romagna",
+                "id": "43"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+-69.79391,-19.2649                ]
+            },
+            "properties": {
+                "label": "Suca",
+                "detail": "Suca, Provincia del Tamarugal, I Región de Tarapacá, Chile",
+                "id": "44"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+11.24399,45.74485                ]
+            },
+            "properties": {
+                "label": "Sega",
+                "detail": "Sega, VI, Veneto",
+                "id": "45"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+28.35591,61.07548                ]
+            },
+            "properties": {
+                "label": "Mentula",
+                "detail": "Mentula, Finland",
+                "id": "46"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+14.44633,3.41775                ]
+            },
+            "properties": {
+                "label": "Bamba",
+                "detail": "Bamba, Haut-Nyong, East, Cameroon",
+                "id": "47"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+7.1082,45.83872                ]
+            },
+            "properties": {
+                "label": "Comba De Merdeux",
+                "detail": "Comba De Merdeux, Saint-Rhémy-en-Bosses, Valle d'Aosta",
+                "id": "48"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+8.14611,46.27641                ]
+            },
+            "properties": {
+                "label": "Cornù",
+                "detail": "Cornù, VB, Piemonte",
+                "id": "49"
             }
         }
     ]
