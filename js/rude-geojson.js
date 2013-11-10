@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "49",
+    "last_id": "60",
     "type": "FeatureCollection",
     "features": [
         {
@@ -732,6 +732,160 @@ var places = {
                 "detail": "Cornù, VB, Piemonte",
                 "id": "49"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+8.7735,44.9939                ]
+            },
+            "properties": {
+                "label": "Alluvioni Cambiò",
+                "detail": "Alluvioni Cambiò, AL, Piemonte",
+                "id": "50"
+            }
         }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+10.11253,45.97855                ]
+            },
+            "properties": {
+                "label": "Azzone",
+                "detail": "Azzone, BG, Lombardia",
+                "id": "51"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+8.8003,45.77812                ]
+            },
+            "properties": {
+                "label": "Azzate",
+                "detail": "Azzate, VA, Lombardia",
+                "id": "52"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+9.6729,44.29151                ]
+            },
+            "properties": {
+                "label": "Sesta Godano",
+                "detail": "Sesta Godano, SP, Liguria",
+                "id": "53"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+9.23903,45.14843                ]
+            },
+            "properties": {
+                "label": "Vaccarizza",
+                "detail": "Vaccarizza, PV, Lombardia",
+                "id": "54"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+9.76089,45.87934                ]
+            },
+            "properties": {
+                "label": "Pian della Mussa",
+                "detail": "Pian della Mussa, Serina, BG, Lombardia",
+                "id": "55"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+8.6976,45.83454                ]
+            },
+            "properties": {
+                "label": "Bardello",
+                "detail": "Bardello, VA, Lombardia",
+                "id": "56"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+11.70304,45.10282                ]
+            },
+            "properties": {
+                "label": "Barbona",
+                "detail": "Barbona, PD, Veneto",
+                "id": "57"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+14.23085,41.16108                ]
+            },
+            "properties": {
+                "label": "Bellona",
+                "detail": "Bellona, CE, Campania",
+                "id": "58"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+16.7474,41.0395                ]
+            },
+            "properties": {
+                "label": "Bitetto",
+                "detail": "Bitetto, BA, Puglia",
+                "id": "59"
+            }
+        }
+,
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+9.1678,40.4554                ]
+            },
+            "properties": {
+                "label": "Benetutti",
+                "detail": "Benetutti, SS, Sardegna",
+                "id": "60"
+            }
+        }
+
     ]
 };
