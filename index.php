@@ -85,8 +85,8 @@ if (!$detect->isMobile() && !$detect->isTablet() && !$detect->isiOS()) {
 	<div id="map"></div>
 	<div id="footer">
 		<div id="credits">
-			<a href="/">Altre mappe</a>. Fatto da <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a>, con 
-l'aiuto di <a href="https://github.com/sabas" target="_blank">Sabas</a>,
+			<a href="/">Altre mappe</a>. Fatto da <a href="http://cortesi.com/" target="_blank">Simone Cortesi</a> (<a href="https://github.com/cortesimone" target="_blank">@cortesimone</a>), con 
+l'aiuto di <a href="http://www.stefanosabatini.eu" target="_blank">Stefano Sabatini</a> (<a href="https://github.com/sabas" target="_blank">@sabas</a>),
 fortemente ispirato da <a href="http://www.garygale.com/" target="_blank">Gary Gale</a>. 
 <a href="images/county.png" target="_blank">Icona Country</a> <a href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC 
 BY SA 3.0</a>; di <a href="http://mapicons.nicolasmollet.com/" target="_blank">Nicolas Mollet</a>.
