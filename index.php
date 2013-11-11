@@ -9,12 +9,16 @@ require_once('Mobile_Detect.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta property="og:image" content="http://maps.cortesi.com/volgari.png" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
 	<!--[if lte IE 8]>
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.ie.css" />
 	<![endif]-->
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+	<link rel="stylesheet" href="js/MarkerCluster.css" />
+	<link rel="stylesheet" href="js/MarkerCluster.Default.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="js/MarkerCluster.Default.ie.css" /><![endif]-->
+	<script src="js/leaflet.markercluster-src.js"></script>
 	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/rude-geojson.js"></script>
