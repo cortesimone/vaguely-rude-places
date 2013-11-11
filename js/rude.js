@@ -18,7 +18,9 @@ $(document).ready(function() {
 
 	var map = new L.Map("map", options);
 	
-	L.geoJson(places, {
+	var markers = L.markerClusterGroup();
+
+	var geoJsonLayer = L.geoJson(places, {
 		onEachFeature: function(feature, layer) {
 			if (feature.properties && feature.properties.label) {
 				var permalink = RudePlacesMap.server_name + '?id=' + feature.properties.id;
@@ -39,7 +41,10 @@ $(document).ready(function() {
 			markers[feature.properties.id] = marker;
 			return marker;
 		}
-	}).addTo(map);
+	});
+	
+	markers.addLayer(geoJsonLayer);
+	map.addLayer(markers);
 		
 	if (RudePlacesMap.hasOwnProperty('place_id')) {
 		if (markers.hasOwnProperty(RudePlacesMap.place_id)) {
