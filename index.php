@@ -18,7 +18,7 @@ require_once('Mobile_Detect.php');
 	<link rel="stylesheet" href="js/MarkerCluster.css" />
 	<link rel="stylesheet" href="js/MarkerCluster.Default.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="js/MarkerCluster.Default.ie.css" /><![endif]-->
-	<script src="js/leaflet.markercluster-src.js"></script>
+	<script src="js/leaflet.markercluster.js"></script>
 	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/rude-geojson.js"></script>
