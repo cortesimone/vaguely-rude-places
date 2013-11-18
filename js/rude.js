@@ -7,7 +7,7 @@ $(document).ready(function() {
 		iconAnchor: [16, 37],
 		popupAnchor:  [0, -37]
 	});
-	var tiles = new L.StamenTileLayer("toner");
+	var tiles = new L.StamenTileLayer("watercolor");
 	var options = {
 		layers: tiles
 	};
