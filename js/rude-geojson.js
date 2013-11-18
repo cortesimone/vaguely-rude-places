@@ -943,6 +943,36 @@ var places = {
                 "detail": "Loritto, BS, Lombardia",
                 "id": "64"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+			11.70701,
+			45.58111
+                ]
+            },
+            "properties": {
+                "label": "Gazzo (Grossa)",
+                "detail": "Gazzo (Grossa), PD, Veneto",
+                "id": "65"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+			11.25313,
+			43.20596
+                ]
+            },
+            "properties": {
+                "label": "Orgia",
+                "detail": "Orgia, SI, Toscana",
+                "id": "66"
+            }
         }
     ]
 };
