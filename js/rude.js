@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 	var map = new L.Map("map", options);
 	
-	var markers = L.markerClusterGroup();
+	var markers = L.markerClusterGroup({spiderfyOnMaxZoom: true, showCoverageOnHover: false});
 
 	var geoJsonLayer = L.geoJson(places, {
 		onEachFeature: function(feature, layer) {
