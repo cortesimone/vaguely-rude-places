@@ -48,7 +48,7 @@ $(document).ready(function() {
 		
 	if (RudePlacesMap.hasOwnProperty('place_id')) {
 		if (markers.hasOwnProperty(RudePlacesMap.place_id)) {
-			map.setView(markers[RudePlacesMap.place_id].getLatLng(), 7);
+			map.setView(markers[RudePlacesMap.place_id].getLatLng(), 11);
 			markers[RudePlacesMap.place_id].openPopup();
 		}
 		
