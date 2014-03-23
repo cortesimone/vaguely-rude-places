@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "70",
+    "last_id": "71",
     "type": "FeatureCollection",
     "features": [
         {
@@ -1032,6 +1032,21 @@ var places = {
                 "label": "Figarolo",
                 "detail": "Figarolo, Golfo Aranci, Olbia-Tempio, Sardinia, Italia",
                 "id": "70"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+			8.7151033,
+			45.8816338
+                ]
+            },
+            "properties": {
+                "label": "Orino",
+                "detail": "Orino, Varese, Lombardy, Italia",
+                "id": "71"
             }
         }
     ]
