@@ -4,7 +4,7 @@
 // When adding new places, don't create an "id" property ... this is done by ../tools/assign-ids.php
 
 var places = {
-    "last_id": "75",
+    "last_id": "76",
     "type": "FeatureCollection",
     "features": [
         {
@@ -1107,6 +1107,21 @@ var places = {
                 "label": "Via Mussa",
                 "detail": "Via Mussa, Palù Alto, Piombino Dese, PD, Veneto, Italy",
                 "id": "75"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+			11.21766,
+			43.29169
+                ]
+            },
+            "properties": {
+                "label": "Piscialembita",
+                "detail": "Piscialembita, SI, Tuscany, Italia",
+                "id": "76"
             }
         }
     ]
